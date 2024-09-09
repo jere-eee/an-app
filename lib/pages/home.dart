@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
         const SizedBox(
           height: 15,
         ),
-        Container(
+        SizedBox(
           height: 210,
           child: ListView.separated(
               scrollDirection: Axis.vertical,
@@ -162,7 +162,7 @@ class _HomePageState extends State<HomePage> {
         const SizedBox(
           height: 15,
         ),
-        Container(
+        SizedBox(
           height: 210,
           child: ListView.separated(
             itemBuilder: (context, index) {
@@ -260,7 +260,7 @@ class _HomePageState extends State<HomePage> {
         const SizedBox(
           height: 15,
         ),
-        Container(
+        SizedBox(
           height: 120,
           child: ListView.separated(
               itemCount: categories.length,
